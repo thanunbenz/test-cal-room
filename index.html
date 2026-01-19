@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <label for="for-select-size">ขนาดมาตรฐาน</label>
+        <select class="form-select" aria-label="Default select example" id="select-size">
+            <option selected>Open this select menu</option>
+            <option value="1">50*50</option>
+            <option value="2">60*60</option>
+            <option value="3">100*100</option>
+            <option value="4">custom</option>
+        </select>
+        <label for="for-custom-input">สำหรับกำหนดเอง</label>
+        <input class="form-control" type="text" id="width" placeholder="Enter width" />
+        <input class="form-control" type="text" id="height" placeholder="Enter height" />
+        <label for="for-custom-input">ขนาดห้อง</label>
+        <input class="form-control" type="text" id="input" placeholder="Enter expression" />
+        <button class="btn btn-primary" id="btn">Calculator !</button>
+
+        <p id="res">This is a simple calculator.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
